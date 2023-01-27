@@ -7,6 +7,6 @@ dependencies:
 - name: quarkus
   version: 0.0.3
   repository: https://redhat-developer.github.io/redhat-helm-charts
-- name: jenkins-test
+- name: hello-world
   version: 0.1.0
-  repository: https://github.com/jtodic/jenkins
+  repository: https://github.com/helm/examples/tree/main/charts/hello-world
