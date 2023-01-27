@@ -7,6 +7,6 @@ dependencies:
 - name: quarkus
   version: 0.0.3
   repository: https://redhat-developer.github.io/redhat-helm-charts
-- name: hello-world
-  version: 0.1.0
-  repository: https://github.com/helm/examples/tree/main/charts/hello-world
+- name: helm-app
+  version: 1.0.0
+  repository: https://github.com/mr-pascal/medium-argocd/tree/main/manifests/helm-app
