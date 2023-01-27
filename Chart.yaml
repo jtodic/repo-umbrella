@@ -7,3 +7,6 @@ dependencies:
   - name: postgresql
     version: 12.1.11
     repository: https://charts.bitnami.com/bitnami
+  - name: jenkins
+    version: 4.3.0
+    repository: https://charts.jenkins.io
