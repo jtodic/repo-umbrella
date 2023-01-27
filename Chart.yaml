@@ -9,4 +9,4 @@ dependencies:
   repository: https://redhat-developer.github.io/redhat-helm-charts
 - name: helm-guestbook
   version: 0.1.0
-  repository: https://github.com/argoproj/argocd-example-apps/tree/master/helm-guestbook
+  repository: https://github.com/argoproj/argocd-example-apps
