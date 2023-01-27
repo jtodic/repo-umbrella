@@ -1,0 +1,13 @@
+quarkus:
+  build:
+    enabled: false
+  deploy:
+    route:
+      enabled: false
+    replicas: 2
+  image:
+    name: quay.io/redhatworkshops/gitops-helm-quarkus
+jenkins-test:
+  deployment:
+    image: "jenkins"
+    tag: "2.32.2"

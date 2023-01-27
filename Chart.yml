@@ -1,0 +1,12 @@
+apiVersion: v2
+name: quarkus-subchart
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies:
+- name: quarkus
+  version: 0.0.3
+  repository: https://redhat-developer.github.io/redhat-helm-charts
+- name: jenkins-test
+  version: 0.1.0
+  repository: https://github.com/jtodic/jenkins.git
