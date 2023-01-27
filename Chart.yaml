@@ -9,4 +9,4 @@ dependencies:
   repository: https://redhat-developer.github.io/redhat-helm-charts
 - name: jenkins-test
   version: 0.1.0
-  repository: https://github.com/jtodic/jenkins.git
+  repository: https://github.com/jtodic/jenkins
