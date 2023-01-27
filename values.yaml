@@ -1,9 +1,13 @@
-quarkus:
-  build:
+mariadb:
+  enabled: false
+
+wordpress:
+  wordpressPassword: foo
+  mariadb:
     enabled: false
-  deploy:
-    route:
-      enabled: false
-    replicas: 2
-  image:
-    name: quay.io/redhatworkshops/gitops-helm-quarkus
+  externalDatabase:
+    host: localhost
+    user: bn_wordpress
+    password: ""
+    database: bitnami_wordpress
+    port: 3306
